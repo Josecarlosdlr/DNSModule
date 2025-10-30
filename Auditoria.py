@@ -18,7 +18,7 @@ def main():
                        help="Ejecuta el escaner de puertos. E.g., '21,22,80' o '1-1024'.")
     parser.add_argument("--dns-txtsoa",
                        action="store_true",
-                       help="Ejecuta el modulo de reconocimiento DNS y WHOIS.")
+                       help="Ejecuta el modulo de reconocimiento DNS Para TXT y SOA.")
     args = parser.parse_args()
     
     target = args.target
